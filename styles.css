@@ -1,0 +1,38 @@
+/* Header Styles */
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Image Section Styles */
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+/* Body Styles */
+
+#tribute-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tribute-header p {
+    margin: 0;
+}
+
+/* Footer Styles */
