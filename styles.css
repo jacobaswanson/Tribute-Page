@@ -1,8 +1,15 @@
+/* Global Styles */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif
+}
+
 /* Header Styles */
 
 h1 {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 /* Image Section Styles */
@@ -17,13 +24,22 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 20px;
 }
 
 #img-caption {
     text-align: center;
+    margin-bottom: 0;
 }
 
 /* Body Styles */
+
+main {
+    background-color: lightgrey;
+}
 
 #tribute-header {
     display: flex;
@@ -35,4 +51,19 @@ h1 {
     margin: 0;
 }
 
+#timeline-div {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Footer Styles */
+
+#tribute-link, div p {
+    display: flex;
+    justify-content: center;
+}
+
+/* General Styling */
+.bold {
+    font-weight: 800;
+} 
